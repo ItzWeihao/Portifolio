@@ -107,6 +107,12 @@
               </a>
             </li>
             <li class="menu__item">
+              <a class="menu__link btn" href="#reflection">
+                <span class="menu__caption">Reflection</span>
+                <i class="ph-bold ph-lightbulb"></i>
+              </a>
+            </li>
+            <li class="menu__item">
               <a class="menu__link btn" href="#contact">
                 <span class="menu__caption">Contact Me</span>
                 <i class="ph-bold ph-envelope"></i>
@@ -296,8 +302,8 @@
                 class="achievements__item d-flex flex-column grid-item animate-card-3"
               >
                 <div class="achievements__card">
-                  <p class="achievements__number">1st</p>
-                  <p class="achievements__descr">School Year</p>
+                  <p class="achievements__number">Java</p>
+                  <p class="achievements__descr">Programming Language</p>
                 </div>
               </div>
               <!-- achievements single item -->
@@ -314,8 +320,8 @@
                 class="achievements__item d-flex flex-column grid-item animate-card-3"
               >
                 <div class="achievements__card">
-                  <p class="achievements__number">Pass</p>
-                  <p class="achievements__descr">Grade</p>
+                  <p class="achievements__number">4-5</p>
+                  <p class="achievements__descr">Group Size</p>
                 </div>
               </div>
             </div>
@@ -329,20 +335,22 @@
                 <!-- About Me Description Start -->
                 <div class="col-12 col-xl-8 grid-item about-descr">
                   <p class="about-descr__text animate-in-up">
-                    something awesome
+                    This project was presented to us during our 2nd semester (2022), 
+                    where the goal is to design and implement a system for visualizing and 
+                    working with map data in the 
+                    <a href="https://www.openstreetmap.org" class="text-link" target="_blank">OpenStreetMap</a> .OSM format.
                   </p>
                   <p class="about-descr__text animate-in-up">
-                    follow up awesome
+                    This is done with the help of various algorithms we learned along side this course 
+                    in order to optimize and make a functional program.
                   </p>
-                  <div class="btn-group about-descr__btnholder animate-in-up">
-                    <a
-                      class="btn mobile-vertical btn-default btn-hover btn-hover-accent"
-                      href="https://github.com/ItzWeihao/MapOfDenmark"
-                    >
-                      <span class="btn-caption">Github Link</span>
-                      <i class="ph-bold ph-arrow-line-up-right"></i>
-                    </a>
-                  </div>
+                  <p class="about-descr__text animate-in-up">
+                    My role in this project was designing the program with UX in mind, 
+                    so that it is user-friendly and intuitive. 
+                    I also worked on implementing a Zoom function 
+                    and creating a searching algorithm where the user is able to write down 
+                    characters in order to search up an address.
+                  </p>
                 </div>
                 <!-- About Me Description End -->
 
@@ -356,30 +364,33 @@
                   </div>
                   <div class="about-info__item animate-in-up">
                     <h6>
-                      <small class="top">Group Size</small>
-                      4-5
-                    </h6>
-                  </div>
-                  <div class="about-info__item animate-in-up">
-                    <h6>
                       <small class="top">Project Type</small>
                       School Project
                     </h6>
                   </div>
-                  <div class="about-info__item animate-in-up">
-                    <h6>
-                      <small class="top">Programming Language</small>
-                      Java
-                    </h6>
+                  <div class="btn-group about-descr__btnholder animate-in-up">
+                    <a
+                      class="btn mobile-vertical btn-default btn-hover btn-hover-accent"
+                      href="https://github.com/ItzWeihao/MapOfDenmark" target="_blank"
+                    >
+                      <span class="btn-caption">Github Link</span>
+                      <i class="ph-bold ph-arrow-line-up-right"></i>
+                    </a>
                   </div>
                 </div>
-                <!-- About Me Information End -->
+                <!-- Project Description End -->
               </div>
             </div>
           </div>
           <!-- Content Block - About Me Data End -->
 
-          <!-- Content Block - Services Start -->
+          <!-- Content Block - Project Images Start -->
+          <div class="content__block section-grid-title">
+            <h2 class="h2__title animate-in-up">Image Descriptions</h2>
+            <p class="h2__title animate-in-up">
+              Here are a few images from the project. The description is displayed when clicking on them.
+            </p>
+          </div>
           <div class="content__block grid-block">
             <div class="container-fluid px-0 inner__gallery">
               <div
@@ -395,14 +406,14 @@
                   itemtype="http://schema.org/ImageObject"
                 >
                   <a
-                    href="img/firstproject/mapGuideFull.png"
-                    data-image="img/firstproject/mapGuideCover.png"
+                    href="img/firstYearProject/mapGuideFull.png"
+                    data-image="img/firstYearProject/mapGuideCover.png"
                     class="gallery__link"
                     itemprop="contentUrl"
                     data-size="5200x3750"
                   >
                     <img
-                      src="img/firstproject/mapGuideCover.png"
+                      src="img/firstYearProject/mapGuideCover.png"
                       class="gallery__image"
                       itemprop="thumbnail"
                       alt="Image description"
@@ -414,13 +425,16 @@
                   >
                     <h5>Quick Guide of Software</h5>
                     <div class="card__tags d-flex flex-wrap">
-                      <span class="rounded-tag">Illustrations</span>
+                      <span class="rounded-tag">Screenshot</span>
                       <span class="rounded-tag">Software</span>
                       <span class="rounded-tag">Guide</span>
+                      <span class="rounded-tag">Showcase</span>
                     </div>
                     <p class="small">
-                      This image illustrates how the to navigate through the
-                      software and important aspects of the program.
+                      An image that showcases each component in the program.
+                      The illustration serves the purpose of showcasing which 
+                      features the program contains and can serve the purpose of
+                      a user guide.
                     </p>
                   </figcaption>
                 </figure>
@@ -434,110 +448,113 @@
                   itemtype="http://schema.org/ImageObject"
                 >
                   <a
-                    href="https://dummyimage.com/1400x1400/3c3c3c/636363"
-                    data-image="https://dummyimage.com/800x800/3c3c3c/636363"
+                    href="img/firstYearProject/mapPaperSketch.png"
+                    data-image="img/firstYearProject/mapPaperSketchCover.png"
                     class="gallery__link"
                     itemprop="contentUrl"
-                    data-size="1400x1400"
+                    data-size="2240x1664"
                   >
                     <img
-                      src="https://dummyimage.com/800x800/3c3c3c/636363"
+                      src="img/firstYearProject/mapPaperSketchCover.png"
                       class="gallery__image"
                       itemprop="thumbnail"
-                      alt="Image description"
-                    />
-                  </a>
-                  <figcaption
-                    class="gallery__descr opposite"
-                    itemprop="caption description"
-                  >
-                    <h5 class="opposite">Dashboard Template</h5>
-                    <div class="card__tags d-flex flex-wrap">
-                      <span class="rounded-tag">UI Design</span>
-                      <span class="rounded-tag">Figma</span>
-                    </div>
-                    <p class="small">
-                      Mauris porttitor lobortis ligula, quis molestie lorem
-                      scelerisque eu. Morbi aliquam enim odio, a mollis ipsum
-                      tristique eu.
-                    </p>
-                  </figcaption>
-                </figure>
-                <!-- Works Gallery Single Item End -->
-
-                <!-- Works Gallery Single Item Start -->
-                <figure
-                  class="col-12 col-md-6 gallery__item grid-item animate-card-2"
-                  itemprop="associatedMedia"
-                  itemscope
-                  itemtype="http://schema.org/ImageObject"
-                >
-                  <a
-                    href="https://dummyimage.com/1400x1400/3c3c3c/636363"
-                    data-image="https://dummyimage.com/800x800/3c3c3c/636363"
-                    class="gallery__link"
-                    itemprop="contentUrl"
-                    data-size="1400x1400"
-                  >
-                    <img
-                      src="https://dummyimage.com/800x800/3c3c3c/636363"
-                      class="gallery__image"
-                      itemprop="thumbnail"
-                      alt="Image description"
-                    />
-                  </a>
-                  <figcaption
-                    class="gallery__descr opposite"
-                    itemprop="caption description"
-                  >
-                    <h5 class="opposite">Notification Icon</h5>
-                    <div class="card__tags d-flex flex-wrap">
-                      <span class="rounded-tag">Illustrations</span>
-                      <span class="rounded-tag">3D Render</span>
-                    </div>
-                    <p class="small">
-                      Mauris porttitor lobortis ligula, quis molestie lorem
-                      scelerisque eu. Morbi aliquam enim odio, a mollis ipsum
-                      tristique eu.
-                    </p>
-                  </figcaption>
-                </figure>
-                <!-- Works Gallery Single Item End -->
-
-                <!-- Works Gallery Single Item Start -->
-                <figure
-                  class="col-12 col-md-6 gallery__item grid-item animate-card-2"
-                  itemprop="associatedMedia"
-                  itemscope
-                  itemtype="http://schema.org/ImageObject"
-                >
-                  <a
-                    href="https://dummyimage.com/1400x1400/3c3c3c/636363"
-                    data-image="https://dummyimage.com/800x800/3c3c3c/636363"
-                    class="gallery__link"
-                    itemprop="contentUrl"
-                    data-size="1400x1400"
-                  >
-                    <img
-                      src="https://dummyimage.com/800x800/3c3c3c/636363"
-                      class="gallery__image"
-                      itemprop="thumbnail"
-                      alt="Image description"
+                      alt="Paper Sketch of the project during design phases"
                     />
                   </a>
                   <figcaption
                     class="gallery__descr"
                     itemprop="caption description"
                   >
-                    <h5>Smart Penguin</h5>
+                    <h5 class="opposite">Paper Sketch of Map</h5>
                     <div class="card__tags d-flex flex-wrap">
-                      <span class="rounded-tag opposite">Illustrations</span>
-                      <span class="rounded-tag opposite">AI Experiment</span>
+                      <span class="rounded-tag opposite">Design</span>
+                      <span class="rounded-tag opposite">Sketching</span>
+                      <span class="rounded-tag opposite">Illustration</span>
+                      <span class="rounded-tag opposite">Material</span>
                     </div>
                     <p class="small">
-                      Mauris porttitor lobortis ligula, quis molestie lorem
-                      scelerisque eu. Morbi aliquam enim odio, a mollis ipsum
-                      tristique eu.
+                      A paper illustration for our program in our designing phase. 
+                      This serves as a template for how we should develop the program in later phases.
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+                <!-- Works Gallery Single Item Start -->
+                <figure
+                  class="col-12 col-md-6 gallery__item grid-item animate-card-2"
+                  itemprop="associatedMedia"
+                  itemscope
+                  itemtype="http://schema.org/ImageObject"
+                >
+                  <a
+                    href="img/firstYearProject/mapDigitalSketch.png"
+                    data-image="img/firstYearProject/mapDigitalSketchCover.png"
+                    class="gallery__link"
+                    itemprop="contentUrl"
+                    data-size="1920x1080"
+                  >
+                    <img
+                      src="img/firstYearProject/mapDigitalSketchCover.png"
+                      class="gallery__image"
+                      itemprop="thumbnail"
+                      alt="Digital sketching of the Map"
+                    />
+                  </a>
+                  <figcaption
+                    class="gallery__descr"
+                    itemprop="caption description"
+                  >
+                    <h5 class="opposite">Digital Sketch of Map</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag opposite">Design</span>
+                      <span class="rounded-tag opposite">Sketching</span>
+                      <span class="rounded-tag opposite">Illustration</span>
+                      <span class="rounded-tag opposite">Digital</span>
+                    </div>
+                    <p class="small">
+                      This is a simple sketch we did in after our paper sketch. 
+                      There was small changes applied afterwards and ultimately it was 
+                      this sketch we referenced our program after.
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+                <!-- Works Gallery Single Item Start -->
+                <figure
+                  class="col-12 col-md-6 gallery__item grid-item animate-card-2"
+                  itemprop="associatedMedia"
+                  itemscope
+                  itemtype="http://schema.org/ImageObject"
+                >
+                  <a
+                    href="img/firstYearProject/mapMockupCover.png"
+                    data-image="img/firstYearProject/mapMockupCover.png"
+                    class="gallery__link"
+                    itemprop="contentUrl"
+                    data-size="800x800"
+                  >
+                    <img
+                      src="img/firstYearProject/mapMockupCover.png"
+                      class="gallery__image"
+                      itemprop="thumbnail"
+                      alt="Mockup of the Map in use"
+                    />
+                  </a>
+                  <figcaption
+                    class="gallery__descr opposite"
+                    itemprop="caption description"
+                  >
+                    <h5 class="opposite">Mockup of The Map</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag">Mockup</span>
+                      <span class="rounded-tag">Software</span>
+                      <span class="rounded-tag">Simulation</span>
+                    </div>
+                    <p class="small">
+                      A mockup of the program in use, illustrating how it would look 
+                      if someone were to use it.
                     </p>
                   </figcaption>
                 </figure>
@@ -547,7 +564,56 @@
           </div>
           <!-- Content Block - Services End -->
         </section>
-        <!-- About Section End -->
+        <!-- Project Description Section End -->
+
+        <!-- Project Reflection Section Start -->
+        <section id="reflection" class="inner reflection">
+
+          <!-- Content Block - H2 Section Title Start -->
+          <div class="content__block block-small">
+            <p class="h2__subtitle animate-in-up">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13" fill="currentColor">
+                <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z"/>
+              </svg>
+              <span>Project Reflection</span>
+            </p>
+            <!-- Content Block - Section parent -->
+            <h2 class="h2__title animate-in-up">Reflection</h2>
+              <!-- Content Block - Section child 1 -->
+              <h5 class="h2__text animate-in-up">Overall</h5>
+              <p class="h2__text animate-in-up" style="margin: 0;">
+                The project was somewhat of a success. We managed to implement many algorithms so
+                the program could function like we want it to. We also managed to make it well design-wise
+                and make it user-friendly and intuitive. <br>
+                What we did not manage was to load the entirety of Denmark but only Bornholm. The reason 
+                for that could be many and our speculation was that it was either because we did not fully optimize 
+                our algorithm so that the runtime is optimal with the enormous data (8 GB). The other reason 
+                we speculated was that our computers were not good enough to handle the loading, which returns to 
+                the first reason that we did not fully optimize the program.
+              </p>
+              <h5 class="h2__text animate-in-up">Individual</h5>
+              <p class="h2__text animate-in-up" style="margin: 0;">
+                Within the group work I did enjoy coming up with a design that was both to our satisfactory and 
+                meeting the requirement for a good User Experience. Besides that I did the Address Search for the Map 
+                which was made with Ternery Search Tree Algorithm. This algorithm was suitable for us and our program 
+                but obviously this algorithm contains its own Pros and Cons, which can also be said with any other 
+                algorithms we could have used for this project. Besides that I also made the Zoom feature and some of 
+                the Zoom indicatores, such as the Zoom Slider.
+              </p>
+              <h5 class="h2__text animate-in-up">Conclusion</h5>
+              <p class="h2__text animate-in-up" style="margin: 0;">
+                To round it off, we were both successful but unsuccessful at the same time, we learned a lot about 
+                various algorithms and how they work, but implementing them was another story as it both took time 
+                and good understanding of the algorithm in order to pick out the correct one for the project.
+                Overall it was a good experience being thrown into a big project already in 1st year of the program, 
+                as it helped us with both group work and working with a big project.
+              </p>
+          </div>
+          <!-- Content Block - H2 Section Title End -->
+        </section>
+        <!-- Project Reflection Section End -->
 
         <!-- Contact Section Start -->
         <section id="contact" class="inner contact">
